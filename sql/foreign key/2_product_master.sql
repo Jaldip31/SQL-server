@@ -18,3 +18,5 @@ insert into product_master values('P07885','Pull Overs',2.5,'Piece',80,30,700,45
 insert into product_master values('P07965','Denim Shirts',4,'Piece',100,40,350,250)
 insert into product_master values('P07975','Lycra Tops',5,'Piece',70,30,300,175)
 insert into product_master values('P08865','Skirts',5,'Piece',75,30,450,300)
+
+select * from product_master
