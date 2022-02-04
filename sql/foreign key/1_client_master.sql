@@ -12,3 +12,5 @@ insert into client_master values('C00003', 'Chhaya Bankar', 'Mumbai', 400057, 'M
 insert into client_master values('C00004', 'Ashwini Joshi', 'Banglore', 560001, 'Karnataka', 0)
 insert into client_master values('C00005', 'Hansel Colaco', 'Mumbai', 400060, 'Maharastra', 2000)
 insert into client_master values('C00006', 'Deepak Sharma', 'Manglore', 560050, 'Karnataka', 0)
+
+select * from client_master

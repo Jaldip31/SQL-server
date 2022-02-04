@@ -16,4 +16,4 @@ insert into student_1 values
 insert into student_1 values
 (1105,5,'kaliya','Dholakpur')
 
-select * from student
+select * from student_1

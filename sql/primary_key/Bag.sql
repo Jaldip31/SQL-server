@@ -1,19 +1,12 @@
 create table bag(
     name varchar(10) NOT NULL ,
-    Red varchar(10)NOT NULL,
-    Green varchar(10)NOT NULL,
-    Blue varchar(10)NOT NULL,
-    Small varchar(10)NOT NULL,
-    Mid varchar(10)NOT NULL,
-    large varchar(10)NOT NULL,
-    A varchar(10)NOT NULL,
-    B varchar(10)NOT NULL,
-    C varchar(10)NOT NULL,
+  
+    color varchar(10)NOT NULL,
+    size varchar(10)NOT NULL,
+    style varchar(10)NOT NULL,
     
-    CONSTRAINT color PRIMARY KEY (Red,Green,Blue) 
-    CONSTRAINT size PRIMARY KEY (Small,Mid,large) 
-    CONSTRAINT style PRIMARY KEY (A,B,C) 
-    
+    CONSTRAINT pri_key PRIMARY KEY (name,color,size,style) 
+
 ) 
 
 insert into bag values('lot-1','Red','Small','A')
