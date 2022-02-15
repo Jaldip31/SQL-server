@@ -19,6 +19,6 @@ insert into SALES_ORDER_DETAIL values('O19003','P07868','1','1','12000');
 insert into SALES_ORDER_DETAIL values('O19002','P00001','1','0','8400');
 insert into SALES_ORDER_DETAIL values('O19001','P0345','1','0','1050');
 insert into SALES_ORDER_DETAIL values('O19003','P00001','10','5','525');
-insert into SALES_ORDER_DETAIL values('O19004','P06734','5','3','1050');
+insert into SALES_ORDER_DETAIL values('O19004','P07885','5','3','1050');
 
 select * from SALES_ORDER_DETAIL
