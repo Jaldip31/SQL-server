@@ -38,5 +38,8 @@ alter table client_master add city_2 varchar(50)
 --delete table
 drop table student
 
+--order by(sorting)
+select * from product_master order by(description)           //by default     ase     
+select * from product_master order by(description) desc
 
 
