@@ -38,7 +38,18 @@ insert into product_master values('P08865','1.22 Drive',5,'piece',2,3,1050,1000)
 select * from product_master
 
 
---Assignment 1  --query
+-----------------------------Assignment 1  --query-----------------------------------------
+-- i) Find out the names of all the clients.
+-- ii) Retrieve the list of names and cities of all the clients.
+-- iii) List the various products available from the product_master table.
+-- iv) List all the clients who are located in Bombay.
+-- v) Display the information for client no 0001 and 0002.
+-- vi) Find the products with description as ‘1.44 drive’ and ‘1.22 Drive’.
+-- vii) Find all the products whose sell price is greater then 5000.
+-- viii) Find the list of all clients who stay in in city ‘Bombay’ or city ‘Delhi’ or ‘Madras’.
+-- ix) Find the product whose selling price is greater than 2000 and less than or equal to 5000.
+-- x) List the name, city and state of clients not in the state of ‘Maharashtra’.
+
 --1
 --select Name from client_master
 
@@ -76,7 +87,21 @@ select * from product_master
 --select Name,city,state from client_master
 --where state not in('Maharashtra')
 
---Assignment 2  --query
+--------------------Assignment 2  --query--------------------------------
+-- i. Change the selling price of ‘1.44 floppy drive to Rs.1150.00
+-- ii. Delete the record with client 0001 from the client master table.
+-- iii. Change the city of client_no’0005’ to Bombay.
+-- iv. Change the bal_due of client_no ‘0001, to 1000.
+-- v. Find the products whose selling price is more than 1500 and also find the new selling price as original selling price *15.
+-- vi. Find out the clients who stay in a city whose second letter is a.
+-- vii. Find out the name of all clients having ‘a’ as the second letter in their names.
+-- viii. List the products in sorted order of their description.
+-- ix. Count the total number of orders
+-- x. Calculate the average price of all the products.
+-- xi. Calculate the minimum price of products.
+-- xii. Determine the maximum and minimum prices . Rename the tittle as ‘max_price’ and min_price respectively.
+-- xiii. Count the number of products having price greater than or equal to 1500.
+
 
 --1
 --update product_master
