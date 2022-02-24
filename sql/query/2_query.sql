@@ -20,6 +20,16 @@ inner join product_master on product_master.productno=sales_order_detail.product
 
 where sales_order.delydate like '%-07-%'
 
+--3
+select product_master.PRODUCTNO
+	product_master.DESCRIPTION,
+	sales_order_detail.QTYORDERD
+FROM client_master
+join SALES_ORDER ON client_master.CLIENTNO = SALES_ORDER.CLIENTNO
+join sales_order_detail ON SALES_ORDER.ORDERNO = sales_order_detail.ORDERNO
+join product_master ON  sales_order_detail.PRODUCTNO=product_master.PRODUCTNO
+Where sales_order_detail.QTYORDERD>5
+
 --4
 select client_master.clientname
 from client_master
